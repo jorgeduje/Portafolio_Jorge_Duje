@@ -1,37 +1,49 @@
 import fotoperfil from "../imgs/fotoperfil.jpg"
 import SobreMi from "../imgs/SobreMi.jpg"
+import Book1 from "../imgs/Book1.png"
+import Books2 from "../imgs/Books2.png"
+import Book3 from "../imgs/Book3.png"
+import TextH1B from "../imgs/TextH1B.png"
+import TextH2W from "../imgs/TextH2W.png"
+import TextV1B from "../imgs/TextV1B.png"
+import TextV2W from "../imgs/TextV2W.png"
 
 
-const text = 'Hello, Kike. I am interested in your work...'
+
+const text = 'Hello, Jorge. I am interested in your work...'
 export const Data = {
     personal:
     {   
-        name: "Jaider",
-        middleName: 'Enrique',
-        middleInitial: 'E.',
-        lastName: 'Vanegas',
-        secondLastName: 'Palomino',
-        age: '34',
-        DOB: 'June / 22nd / 1987',
-        BIO: "I am Jaider Vanegas. You can call me Kike. At age of 34, and after 10 years as an English teacher at the top language centers in my city (Medellin, Col.) I have decided to leave my comfort zone to expand and look for new horizons. That's what defines me best.. that I am fearful like everyone else, but it won't keep me from testing my limits, and reaching out for what I want.",
-        BIO2: "I am a multidisiciplinary person. I play the guitar at a hight level, the harmonica and other musical instruments that I have learned by myself. I paint and draw using different techniques. I learned English and managed to get to a C2 level with a honorary mention given by the University of Michigan and Cambridge English Dep. I am learning French, and I am able to understand Portuguese... all of these with no official training, but just pure will, determination and a couple of videos on YouTube. I play different kinds of sports: I play soccer, American Football, and do free-style rollerblading... all of them at a competitive level. I love reading and learning new things. I often find myself challenged by what I am learning at the time, only to find myself again having it sucessfully learned.",
+        name: "Jorge",
+        lastName: 'Duje',
+        age: '29',
+        DOB: 'Sept / 19 / 1992',
+        BIO: "My name is Jorge Duje, I am currently 29 years old, I am from Cordoba Argentina, after some years studying economics, I decided to change my way to this wonderful world of programming, since I have always been curious about technologies.",
+        BIO2: "I am very curious about things that I do not have information, I like to know everything, and that has led me to find in my day to day, a moment to study something new. I am a self-learning person. I really like working in a team, teaching, contributing my knowledge, and learning from others.I am a family man, in my free time, I like to go fishing, spend time with my family, and go out to play with my dogs, they are 3, Jack, Lola, Rojo.I am an enterprising person, trying to improve myself day by day, and generate new knowledge.Currently I am dedicated to Front-end. but I am also studying Back-end technologies.",
         social : 
         {
-            facebook: "https://www.facebook.com/kkvz23/",
-            twitter: "https://twitter.com/KkVngz23",
-            instagram: "https://www.instagram.com/kkvngz23/",
-            LinkedIn: "https://www.linkedin.com/in/jaidervanegas23/",
-            YouTuBe: "https://www.youtube.com/channel/UCCzn5vab6xL1-Vwdzk8Meeg",
-            WhatsApp: `https://api.whatsapp.com/send?phone=573016368707&text=${text}`,
-            phone: +573016368707,
-            email: 'jaidervanegas@live.com'
+           
+            twitter: "https://twitter.com/DujeJorge",
+            instagram: "https://www.instagram.com/jorge_duje/",
+            LinkedIn: "https://www.linkedin.com/in/jorge-duje-2212b4219/",
+            WhatsApp: `https://api.whatsapp.com/send?phone=543544563586&text=${text}`,
+            phone: 543544563586,
+            email: 'jorgeduje4@gmai.com'
         }
     },
     images: 
     {
         avatar: fotoperfil,
-        BGAbout: SobreMi
+        BGAbout: SobreMi,
+        book1: Book1,
+        book2: Books2,
+        book3: Book3,
+        TextH1B: TextH1B,
+        TextH2W: TextH2W,
+        TextV1B: TextV1B,
+        TextV2W: TextV2W
     },
+    
     academic :
     {
         bachelor :

@@ -1,5 +1,8 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 import ProfesionaInfoContext from '../Context/ProfesionalInfoContext'
+
+
+// Imagenes 
 
 
 // Estilos
@@ -12,14 +15,13 @@ const Academic = () => {
     return (
         <div className="container-academic">
 
-            <article className="image-academic">
-                <img src={Data.images.avatar} alt="" />
-            </article>
+            <div className="zoom">
+                {/* <img src={Data.} alt="" id="img1"/> */}
+                <img src="" alt="" id="img2"/>
+                <img src="" alt="" id="img3"/>
 
-            <article className="information-academic">
-                <h4>otra cosita</h4>
-            </article>
-
+            </div>
+         
         </div>
     )
 }

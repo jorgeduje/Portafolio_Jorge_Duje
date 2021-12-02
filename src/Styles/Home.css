@@ -2,16 +2,23 @@
 .container-home {
     display: flex;
     height: 100vh;
-    background-color: #060707;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
+}
+
+.home-image{
+    width: 40%;
 }
 
 .home-image > img {
     height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .home-text {
-    background-image: linear-gradient(to bottom right, rgb(112, 109, 109), rgb(0, 0, 0));
     width: 50%;
     display: flex;
     justify-content: center;
@@ -20,12 +27,26 @@
     flex-direction: column;
 }
 
+.home-text>a{
+    border: 1px solid white;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.home-text>a:hover{
+    color: #2C5364;
+    background-color: white;
+    border: 1px solid #2C5364;
+}
+
 .home-social {
-    width: 9.6%;
+    width: 10%;
     height: 100%;
 }
 
 .home-social > ul {
+    height: 100%;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -36,31 +57,19 @@
     align-items: center;
 }
 
-.home-social > ul > li {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-}
 
-.home-social > ul > li:hover {
-    margin-right: 3px;
-}
 
 .home-social > ul > li > a {
     text-decoration: none;
-    color: #492232;
-    margin-top: 0.5rem;
+    color: #fff;
     font-size: 1.3rem;
+
 }
 
-.home-social > ul > li > .fa-facebook-f:hover {
-    color: #105785;
-}
+
 
 .home-social > ul > li > .fa-twitter:hover {
     color: #1DA1F2;
-}
-.home-social > ul > li > .fa-youtube:hover {
-    color: #FF0000;
 }
 
 .home-social > ul > li > .fa-linkedin:hover {
