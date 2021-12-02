@@ -1,0 +1,13 @@
+
+.personal-info-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 3rem;
+}
+
+.personal-info-container > p {
+    margin: 1rem 30rem;
+    font-size: 1rem;
+}
