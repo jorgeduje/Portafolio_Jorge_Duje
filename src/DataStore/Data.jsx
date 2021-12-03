@@ -1,13 +1,11 @@
 import fotoperfil from "../imgs/fotoperfil.jpg"
 import SobreMi from "../imgs/SobreMi.jpg"
-import Book1 from "../imgs/Book1.png"
-import Books2 from "../imgs/Books2.png"
-import Book3 from "../imgs/Book3.png"
-import TextH1B from "../imgs/TextH1B.png"
-import TextH2W from "../imgs/TextH2W.png"
-import TextV1B from "../imgs/TextV1B.png"
+import bg from "../imgs/bg.jpg"
+import mountain1 from "../imgs/mountain1.png"
+import mountain2 from "../imgs/mountain2.png"
+import textMountain from "../imgs/textMountain.png"
 import TextV2W from "../imgs/TextV2W.png"
-
+import fondoAcademic from "../imgs/fondoAcademic.jpg"
 
 
 const text = 'Hello, Jorge. I am interested in your work...'
@@ -35,13 +33,12 @@ export const Data = {
     {
         avatar: fotoperfil,
         BGAbout: SobreMi,
-        book1: Book1,
-        book2: Books2,
-        book3: Book3,
-        TextH1B: TextH1B,
-        TextH2W: TextH2W,
-        TextV1B: TextV1B,
-        TextV2W: TextV2W
+        bg: bg,
+        mountain1: mountain1,
+        mountain2: mountain2,
+        textMountain: textMountain,
+        TextV2W: TextV2W,
+        fondoAcademic: fondoAcademic
     },
     
     academic :

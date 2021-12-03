@@ -1,8 +1,6 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext } from 'react'
 import ProfesionaInfoContext from '../Context/ProfesionalInfoContext'
-
-
-// Imagenes 
+import { Link } from 'react-router-dom'
 
 
 // Estilos
@@ -14,16 +12,52 @@ const Academic = () => {
 
     return (
         <div className="container-academic">
-
-            <div className="zoom">
-                {/* <img src={Data.} alt="" id="img1"/> */}
-                <img src="" alt="" id="img2"/>
-                <img src="" alt="" id="img3"/>
-
-            </div>
-         
+            
+           
+            <div className='academic-information'>
+                    <ul>
+                        <div>
+                            <span>
+                            <i class="fas fa-award"></i>
+                            </span>
+                            <h4>Bachelor Degree</h4>
+                            <h6>Inicio: 12/21/2020 / finalizacion: 12/12/3123</h6>
+                        </div>
+                        <div>
+                            <span>
+                            <i class="fas fa-award"></i>
+                            </span>
+                            <h4>Bachelor Degree</h4>
+                            <h6>Inicio: 12/21/2020 / finalizacion: 12/12/3123</h6>
+                        </div>
+                        <div>
+                            <span>
+                            <i class="fas fa-award"></i>
+                            </span>
+                            <h4>Bachelor Degree</h4>
+                            <h6>Inicio: 12/21/2020 / finalizacion: 12/12/3123</h6>
+                        </div>
+                        <div>
+                            <span>
+                            <i class="fas fa-award"></i>
+                            </span>
+                            <h4>Bachelor Degree</h4>
+                            <h6>Inicio: 12/21/2020 / finalizacion: 12/12/3123</h6>
+                        </div>
+                        <div>
+                            <span>
+                            <i class="fas fa-award"></i>
+                            </span>
+                            <h4>Bachelor Degree</h4>
+                            <h6>Inicio: 12/21/2020 / finalizacion: 12/12/3123</h6>
+                        </div>
+                    </ul>
+                </div>
+                <Link to="/about" className="backk"><i class="fas fa-arrow-left"></i></Link>
+          
         </div>
     )
 }
 
 export default Academic
+

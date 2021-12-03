@@ -16,7 +16,7 @@ const Home = () => {
                 <h3>Hello</h3>
                 <h3>I am</h3>
                 <h3>Kike</h3>
-                <a href={HojaDeVida} download="CV Jorge Duje">descargar</a>
+                <a href={HojaDeVida} download="CV Jorge Duje">Descargar CV</a>
             </div>
             <aside className='home-social'>
                 <ul>

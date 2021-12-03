@@ -1,14 +1,78 @@
 .container-academic{
+   width: 100%;
+   height: 100vh;
+   background-image: url(../imgs/fondoAcademic2.jpg);
+   background-size: cover;
+   background-position: center;
+}
+
+
+
+
+.academic-information{
+    position: absolute;
+    right: 30%;
+    color: #064635;
+    height: 100%;
+   
+}
+
+.academic-information > ul{
+    
+    list-style: none;
     display: flex;
-    height: 100vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-left: 2px solid #000;
+    position: relative;
+    
 }
 
 
-
-.image-academic>img{
-    height: 100vh;
+.academic-information > ul > div > span {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -10%;
+    background-color: #064635;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    
+}
+.academic-information > ul > div > span> i{
+    font-size: 1.8rem;
+    color: #fff;
 }
 
-/* .information-academic{
+.backk{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 2rem;
+    color: #064635;
+}
 
-} */
+@media screen and (max-width: 550px) {
+    
+    .container-academic{
+        width: 100%;
+        height: 100vh;
+        background-image: url(../imgs/fondoAcademic.jpg);
+        background-size: cover;
+        background-position: center;
+     }
+
+    .academic-information{
+        position: absolute;
+        right: 5%;
+        color: #064635;
+        height: 100%;
+       
+    }
+
+    .academic-information > ul > div > h4, h6{
+        color: white;
+    }
+}
