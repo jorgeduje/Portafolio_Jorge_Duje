@@ -11,8 +11,8 @@
 
 .academic-information{
     position: absolute;
-    right: 30%;
-    color: #064635;
+    right: 35%;
+    color: #113e52;
     height: 100%;
    
 }
@@ -34,8 +34,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    left: -10%;
-    background-color: #064635;
+    left: -12%;
+    background-color: #113e52;
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
@@ -46,12 +46,13 @@
     color: #fff;
 }
 
+
 .backk{
     position: fixed;
     right: 20px;
     bottom: 20px;
     font-size: 2rem;
-    color: #064635;
+    color: #31b7f0;
 }
 
 @media screen and (max-width: 550px) {
@@ -66,7 +67,7 @@
 
     .academic-information{
         position: absolute;
-        right: 5%;
+        right: 15%;
         color: #064635;
         height: 100%;
        
@@ -74,5 +75,8 @@
 
     .academic-information > ul > div > h4, h6{
         color: white;
+    }
+    div>h6{
+        font-size: .8rem;
     }
 }

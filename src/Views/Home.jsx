@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 import ProfesionaInfoContext from '../Context/ProfesionalInfoContext'
 import '../Styles/Home.css'
 import HojaDeVida from "../imgs/HojaDeVida.pdf"
@@ -6,6 +6,12 @@ import HojaDeVida from "../imgs/HojaDeVida.pdf"
 
 const Home = () => {
     const { Data } = useContext(ProfesionaInfoContext)
+
+    const [flag, setFlag] = useState(false)
+
+    const handlerFlag = ()=>{
+        setFlag(!flag)
+    }
     
     return (
         <div className="container-home">
@@ -13,9 +19,9 @@ const Home = () => {
                 <img src={Data.images.avatar} alt="" />
             </div>
             <div className='home-text'>
-                <h3>Hello</h3>
+                <h3 onClick={handlerFlag}>{flag ? "hola" : "chau"}</h3>
                 <h3>I am</h3>
-                <h3>Kike</h3>
+                <h3>Jorge</h3>
                 <a href={HojaDeVida} download="CV Jorge Duje">Descargar CV</a>
             </div>
             <aside className='home-social'>

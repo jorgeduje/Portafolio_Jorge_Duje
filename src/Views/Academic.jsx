@@ -20,36 +20,36 @@ const Academic = () => {
                             <span>
                             <i class="fas fa-award"></i>
                             </span>
-                            <h4>Bachelor Degree</h4>
-                            <h6>Inicio: 12/21/2020 / finalizacion: 12/12/3123</h6>
+                            <h4>Html and modern css</h4>
+                            <h6>Date: January / 2020</h6>
                         </div>
                         <div>
                             <span>
                             <i class="fas fa-award"></i>
                             </span>
-                            <h4>Bachelor Degree</h4>
-                            <h6>Inicio: 12/21/2020 / finalizacion: 12/12/3123</h6>
+                            <h4>University Javascript</h4>
+                            <h6>Date: March / 2020</h6>
                         </div>
                         <div>
                             <span>
                             <i class="fas fa-award"></i>
                             </span>
-                            <h4>Bachelor Degree</h4>
-                            <h6>Inicio: 12/21/2020 / finalizacion: 12/12/3123</h6>
+                            <h4>React js, Redux</h4>
+                            <h6>Date: August / 2020</h6>
                         </div>
                         <div>
                             <span>
                             <i class="fas fa-award"></i>
                             </span>
-                            <h4>Bachelor Degree</h4>
-                            <h6>Inicio: 12/21/2020 / finalizacion: 12/12/3123</h6>
+                            <h4>Node.js</h4>
+                            <h6>Date: October / 2021</h6>
                         </div>
                         <div>
                             <span>
                             <i class="fas fa-award"></i>
                             </span>
-                            <h4>Bachelor Degree</h4>
-                            <h6>Inicio: 12/21/2020 / finalizacion: 12/12/3123</h6>
+                            <h4>Computer science</h4>
+                            <h6>Date: Currently</h6>
                         </div>
                     </ul>
                 </div>

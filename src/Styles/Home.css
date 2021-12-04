@@ -32,6 +32,7 @@
     padding: 5px 10px;
     color: white;
     text-decoration: none;
+    border-radius: 10px;
 }
 
 .home-text>a:hover{
@@ -91,4 +92,38 @@
 
 .home-social > ul > li > .fa-whatsapp:hover {
     color: #25D366;
+}
+
+@media screen and (max-width: 650px) {
+
+    .container-home{
+        /* background-image: url(../imgs/fotoperfil.jpg); */
+        background-size: cover;
+        background-position: center;
+    }
+
+    .home-image{
+        display: none;
+    }
+
+    .container-home{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-social{
+        width: 90%;
+    }
+    .home-social>ul{
+        flex-direction: row;
+
+    }
+    .home-text{
+        width: 90%;
+        padding-top: 100px;
+        padding-bottom: 20px;
+        font-size: 1.5rem;
+
+    }
+    
 }
