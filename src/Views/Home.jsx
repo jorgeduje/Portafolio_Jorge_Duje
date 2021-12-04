@@ -1,4 +1,5 @@
 import React, { useContext, useState } from 'react'
+import { Link } from 'react-router-dom'
 import ProfesionaInfoContext from '../Context/ProfesionalInfoContext'
 import '../Styles/Home.css'
 import HojaDeVida from "../imgs/HojaDeVida.pdf"
@@ -19,10 +20,10 @@ const Home = () => {
                 <img src={Data.images.avatar} alt="" />
             </div>
             <div className='home-text'>
-                <h3 onClick={handlerFlag}>{flag ? "hola" : "chau"}</h3>
-                <h3>I am</h3>
+                <Link to={flag ? "/about" : "#"} onMouseOver={handlerFlag} className={flag ? "is-true" : "is-false"}>{ flag ? "ir al about" : "home"}</Link>
+                <h3 className="maquina">Hello Jayder, My Friend..<span className="span">&#160;</span></h3>
                 <h3>Jorge</h3>
-                <a href={HojaDeVida} download="CV Jorge Duje">Descargar CV</a>
+                <a href={HojaDeVida} download="CV Jorge Duje" className="cv">Descargar CV</a>
             </div>
             <aside className='home-social'>
                 <ul>

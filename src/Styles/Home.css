@@ -27,7 +27,48 @@
     flex-direction: column;
 }
 
-.home-text>a{
+/* ESTATE BANDERA PARA LOS TEXTOS */
+
+.is-false{
+    color: red;
+    font-size: 2rem;
+}
+
+.is-true{
+    color: gold;
+    font-size: 2rem;
+}
+
+/* EFECTO MAQUINA DE ESCRIBIR */
+.maquina{
+    float: left;
+    color: white;
+    position: relative;
+
+}
+.span{
+    position: absolute;
+    right: 0;
+    width: 0;
+    background-color: #0F2027;
+    border-left: 2px solid white;
+    animation: maquina 4s infinite alternate steps(24);
+}
+
+@keyframes maquina {
+    from{
+        width: 100%;
+    }
+
+    to{
+        width: 0;
+    }
+}
+
+
+
+
+.cv{
     border: 1px solid white;
     padding: 5px 10px;
     color: white;
@@ -35,7 +76,7 @@
     border-radius: 10px;
 }
 
-.home-text>a:hover{
+.cv:hover{
     color: #2C5364;
     background-color: white;
     border: 1px solid #2C5364;
