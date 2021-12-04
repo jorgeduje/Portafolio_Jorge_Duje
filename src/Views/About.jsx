@@ -15,7 +15,7 @@ const About = () => {
             </div>
             <div className="history-container">
                 <Link to="/academic">Academic Information</Link>
-                <Link to="#">Work History</Link>
+                <Link to="/workhistory">Work History</Link>
                 <Link to="#">Skills</Link>
             </div>
 

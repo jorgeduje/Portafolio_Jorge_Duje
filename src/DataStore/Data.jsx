@@ -6,6 +6,11 @@ import mountain2 from "../imgs/mountain2.png"
 import textMountain from "../imgs/textMountain.png"
 import TextV2W from "../imgs/TextV2W.png"
 import fondoAcademic from "../imgs/fondoAcademic.jpg"
+import clima from "../imgs/clima.png"
+import github from "../imgs/github.png"
+import todoList from "../imgs/todoList.png"
+import pokedex from "../imgs/pokedex.png"
+import ecommerce from "../imgs/ecommerce.png"
 
 
 const text = 'Hello, Jorge. I am interested in your work...'
@@ -97,37 +102,65 @@ export const Data = {
         }
 
     },
-    workBackground :
-    {
-        experienceA :
-        {   YOS: "2013",
-            YOF: "2018",
-            institute: "Centro Colombo Americano",
-            city: "Medellin / Colombia",
-            online: false,
-            logo: 'https://colomboworld.com/wp-content/uploads/2019/03/Imagotipo-CCAM-2019-Policrom%C3%ADa.png'
+    workHistory: [
+        {
+            id: 1,
+            name: "Pokedex App",
+            stage: "True-beginner",
+            description: "Pokedex web application using the pokemon API, getting familiar with Sass",
+            technologies: "Html, Css, Javascript, Sass",
+            url1: "https://jorgeduje.github.io/Podedex-API-Pokemon/",
+            url2:"https://github.com/jorgeduje/Podedex-API-Pokemon",
+            image: pokedex 
         },
-        experienceB :
-        {   
-            YOS: "2018",
-            YOF: "2021",
-            institute: "COMFAMA",
-            city: "Medellin / Colombia",
-            online: false,
-            logo: 'https://fundacionpostobon.com/wp-content/uploads/2018/03/logo-comfama-01.png'
-        },
-        experienceC :
-        {   
-            completed: false,
-            YOS: "2020",
-            YOF: "Present",
-            institute: "Univseridad EAFIT",
-            city: "Medellin / Colombia",
-            online: true,
-            logo: 'https://www.eafit.edu.co/cec/congresos/losas-y-pilas/PublishingImages/Paginas/Inicio/Logotipo-EAFIT-azul-en-PNG.png'
-        }
 
-    }
+        {
+            id: 2,
+            name: "ToDo List App",
+            stage: "True-beginner",
+            description: "To-do list that allows you to change the status, I learned to handle states and hooks",
+            technologies: "Html, Css, Javascript, React",
+            url1: "https://jorgeduje.github.io/ToDo-List-App-React/",
+            url2:"https://github.com/jorgeduje/ToDo-List-App-React",
+            image: todoList 
+        },
+
+
+        {
+            id: 3,
+            name: "Github Search App",
+            stage: "Beginner",
+            description: "Application to search for github users, which allows you to see their followers, followin and repositories",
+            technologies: "Html, Css, Javascript, React",
+            url1: "https://react-github-searching-abc5v8qw9-jorgeduje.vercel.app/",
+            url2:"https://github.com/jorgeduje/react-github-searching",
+            image: github 
+        },
+
+        {
+            id: 4,
+            name: "Weather App",
+            stage: "Beginner",
+            description: "Application that allows you to check the climate of any part of the world with all its properties",
+            technologies: "Html, Css, Javascript, React",
+            url1: "https://app-climaa-2aliquf46-jorgeduje.vercel.app/",
+            url2:"https://github.com/jorgeduje/app-clima",
+            image: clima 
+        },
+
+        {
+            id: 5,
+            name: "E-commerce",
+            stage: "Fluent",
+            description: "Official project for a Spa center, using Paypal and reservations by whatsapp, a comforting experience working as a team",
+            technologies: "Html, Css, Javascript, React, Tailwind, React-Router v6",
+            url1: "https://app-ecommerce-6jrg9tf2c-jorgeduje.vercel.app/",
+            url2:"https://github.com/jorgeduje/app-ecommerce",
+            image: ecommerce 
+        },
+
+    ]
+   
 }
 
 console.log(Data.personal.BIO.length)
