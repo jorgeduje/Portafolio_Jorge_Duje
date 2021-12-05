@@ -131,7 +131,7 @@ export const Data = {
             name: "Github Search App",
             stage: "Beginner",
             description: "Application to search for github users, which allows you to see their followers, followin and repositories",
-            technologies: "Html, Css, Javascript, React",
+            technologies: "Html, Css, Javascript, React, Bootstrap",
             url1: "https://react-github-searching-abc5v8qw9-jorgeduje.vercel.app/",
             url2:"https://github.com/jorgeduje/react-github-searching",
             image: github 
@@ -142,7 +142,7 @@ export const Data = {
             name: "Weather App",
             stage: "Beginner",
             description: "Application that allows you to check the climate of any part of the world with all its properties",
-            technologies: "Html, Css, Javascript, React",
+            technologies: "Html, Css, Javascript, React, Tailwind",
             url1: "https://app-climaa-2aliquf46-jorgeduje.vercel.app/",
             url2:"https://github.com/jorgeduje/app-clima",
             image: clima 
