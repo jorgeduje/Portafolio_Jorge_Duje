@@ -36,7 +36,7 @@ const WorkHistory = () => {
             </div>
 
 
-            <Link to="/" className="back"><i class="fas fa-arrow-left"></i></Link>
+            <Link to="/about" className="back"><i class="fas fa-arrow-left"></i></Link>
         </div>
     )
 }
