@@ -31,6 +31,7 @@
 
 .home-text>h2{
     font-family: 'Raleway', sans-serif;
+    color: #a69a72;
 }
 
 .home-text>h3{
@@ -39,11 +40,12 @@
 
 
 .cv{
-    border: 1px solid white;
+    border: 1px solid #a69a72;
     padding: 5px 10px;
     color: white;
     text-decoration: none;
     border-radius: 10px;
+    background-color: #a69a72;
 }
 
 .cv:hover{
@@ -73,7 +75,7 @@
 
 .home-social > ul > li > a {
     text-decoration: none;
-    color: #fff;
+    color: #a69a72;
     font-size: 1.3rem;
 
 }
@@ -127,8 +129,8 @@
         width: 200px;
         height: 200px;
         border-radius: 50% !important;
-        border: 2px solid whitesmoke;
-        box-shadow: 3px 3px 20px gray;
+        border: 2px solid #a69a72;
+        box-shadow: 3px 3px 10px #a69a72;
     }
 
   
@@ -157,16 +159,6 @@
     }
     .home-text>p{
         margin-bottom: 20px;
-    }
-
-    .cv{
-        border: 1px solid white;
-        padding: 5px 10px;
-        color: #0F2027;
-        background-color: #fff;
-        text-decoration: none;
-        border-radius: 10px;
-        font-weight: bold;
     }
     
 }
