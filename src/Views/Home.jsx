@@ -70,10 +70,10 @@ const Home = () => {
             </div>
             <aside className='home-social'>
                 <ul>
-                    <li><a href={Data.personal.social.twitter} target="_blank" className="fab fa-twitter"></a></li>
-                    <li><a href={Data.personal.social.LinkedIn} target="_blank" className="fab fa-linkedin"></a></li>
-                    <li><a href={Data.personal.social.instagram} target="_blank" className="fab fa-instagram"></a></li>
-                    <li><a href={Data.personal.social.WhatsApp} target="_blank" class="fab fa-whatsapp"></a></li>
+                    <li><a href={Data.personal.social.twitter} target="_blank" rel="noreferrer" className="fab fa-twitter"></a></li>
+                    <li><a href={Data.personal.social.LinkedIn} target="_blank" rel="noreferrer" className="fab fa-linkedin"></a></li>
+                    <li><a href={Data.personal.social.instagram} target="_blank" rel="noreferrer" className="fab fa-instagram"></a></li>
+                    <li><a href={Data.personal.social.WhatsApp} target="_blank" rel="noreferrer" className="fab fa-whatsapp"></a></li>
                 </ul>
             </aside>
         </div>

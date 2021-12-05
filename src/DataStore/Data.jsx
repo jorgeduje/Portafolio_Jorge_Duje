@@ -162,5 +162,3 @@ export const Data = {
     ]
    
 }
-
-console.log(Data.personal.BIO.length)
