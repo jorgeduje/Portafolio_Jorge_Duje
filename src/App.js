@@ -8,6 +8,7 @@ import Home from "./Views/Home";
 import About from "./Views/About";
 import Academic from "./Views/Academic";
 import WorkHistory from "./Views/WorkHistory";
+import Skills from "./Views/Skills";
 
 
 //Provider
@@ -23,6 +24,7 @@ function App() {
             <Route path="/about" exact element={<About />}/>
             <Route path="/academic" exact element={ <Academic />}/>
             <Route path="/workhistory" exact element={ <WorkHistory /> } />
+            <Route path="/skills" exact element={ <Skills /> } />
           </Routes>
       </ProfesionalProvider>
     </BrowserRouter>

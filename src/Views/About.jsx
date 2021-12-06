@@ -17,7 +17,7 @@ const About = () => {
             <div className="history-container">
                 <Link to="/academic">Academic Information</Link>
                 <Link to="/workhistory">Work History</Link>
-                <Link to="#">Skills</Link>
+                <Link to="/skills">Skills</Link>
             </div>
 
             <Link to="/" className="back"><i class="fas fa-arrow-left"></i></Link>
