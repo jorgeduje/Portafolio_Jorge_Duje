@@ -22,7 +22,7 @@ const WorkHistory = () => {
     return (
        loader ? 
        <div className="container-history">
-            <h2>Work History</h2>
+            <h2>Some of my projects</h2>
 
             <div className="container-cards">
                 {

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import TextosSkills from '../components/TextosSkills'
 import "../Styles/Skills.css"
 
 const Skills = () => {
@@ -46,7 +47,7 @@ const Skills = () => {
 
     return (
         <div className="container-skills">
-            <h2>My Skills</h2>
+            <h2>My technical skills</h2>
             <h4>Click into the image to see the percentage</h4>
         <div className='square'>
             <div className="square-row">
@@ -74,7 +75,7 @@ const Skills = () => {
                     <img src="data:image/png;base64,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" alt="" />
                 </div>
                 <div className="loader-bar">
-                    <span className={hover3 ? 'loader-effect animation' : 'loader-effect'} style={{marginRight: "0%"}}>
+                    <span className={hover3 ? 'loader-effect animation' : 'loader-effect'} style={{marginRight: "5%"}}>
                       
                     </span>
                 </div>
@@ -84,7 +85,7 @@ const Skills = () => {
                     <img src="data:image/png;base64,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" alt="" />
                 </div>
                 <div className="loader-bar">
-                    <span className={hover4 ? 'loader-effect animation' : 'loader-effect'} style={{marginRight: "0%"}}>
+                    <span className={hover4 ? 'loader-effect animation' : 'loader-effect'} style={{marginRight: "5%"}}>
                       
                     </span>
                 </div>
@@ -142,20 +143,10 @@ const Skills = () => {
             
         </div>
 
-        <div className="section2">
-            <h2>Technologies</h2>
-           <ul>
-            <li>React</li>
-            <li>Javascript</li>
-            <li>Css ( Cascading style Sheet )</li>
-            <li>Html ( HyperText Markup Language )</li>
-            <li>Tailwind</li>
-            <li>Sass</li>
-            <li>Python</li>
-            <li>Node js</li>
-            <li>Bootstrap</li>
-           </ul>
-        </div>
+       <div className="sectio2padre">
+           <h2>Touch Screen</h2>
+       <TextosSkills />
+       </div>
 
         <Link to="/about" className="back"><i class="fas fa-arrow-left"></i></Link>
     </div>

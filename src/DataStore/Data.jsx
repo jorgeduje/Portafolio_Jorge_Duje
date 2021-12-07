@@ -105,13 +105,13 @@ export const Data = {
     workHistory: [
         {
             id: 1,
-            name: "Pokedex App",
-            stage: "True-beginner",
-            description: "Pokedex web application using the pokemon API, getting familiar with Sass",
-            technologies: "Html, Css, Javascript, Sass",
-            url1: "https://jorgeduje.github.io/Podedex-API-Pokemon/",
-            url2:"https://github.com/jorgeduje/Podedex-API-Pokemon",
-            image: pokedex 
+            name: "E-commerce",
+            stage: "Fluent",
+            description: "Official project for a Spa center, using Paypal and reservations by whatsapp, a comforting experience working as a team",
+            technologies: "Html, Css, Javascript, React, Tailwind, React-Router v6",
+            url1: "https://app-ecommerce-6jrg9tf2c-jorgeduje.vercel.app/",
+            url2:"https://github.com/jorgeduje/app-ecommerce",
+            image: ecommerce 
         },
 
         {
@@ -150,14 +150,14 @@ export const Data = {
 
         {
             id: 5,
-            name: "E-commerce",
-            stage: "Fluent",
-            description: "Official project for a Spa center, using Paypal and reservations by whatsapp, a comforting experience working as a team",
-            technologies: "Html, Css, Javascript, React, Tailwind, React-Router v6",
-            url1: "https://app-ecommerce-6jrg9tf2c-jorgeduje.vercel.app/",
-            url2:"https://github.com/jorgeduje/app-ecommerce",
-            image: ecommerce 
-        },
+            name: "Pokedex App",
+            stage: "True-beginner",
+            description: "Pokedex web application using the pokemon API, getting familiar with Sass",
+            technologies: "Html, Css, Javascript, Sass",
+            url1: "https://jorgeduje.github.io/Podedex-API-Pokemon/",
+            url2:"https://github.com/jorgeduje/Podedex-API-Pokemon",
+            image: pokedex 
+        }
 
         
     ]

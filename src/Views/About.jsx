@@ -15,9 +15,9 @@ const About = () => {
                 <p>{Data.personal.BIO2}</p>
             </div>
             <div className="history-container">
-                <Link to="/academic">Academic Information</Link>
                 <Link to="/workhistory">Work History</Link>
                 <Link to="/skills">Skills</Link>
+                <Link to="/academic">Academic Information</Link>
             </div>
 
             <Link to="/" className="back"><i class="fas fa-arrow-left"></i></Link>
