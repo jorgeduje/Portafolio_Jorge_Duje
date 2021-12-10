@@ -7,7 +7,7 @@ import HojaDeVida from "../imgs/HojaDeVida.pdf"
 
 
 const Home = () => {
-    const { Data } = useContext(ProfesionaInfoContext)
+    const { Data, width } = useContext(ProfesionaInfoContext)
     const navigate = useNavigate()
 
     const [flag, setFlag] = useState(false)
@@ -25,9 +25,13 @@ const Home = () => {
             </div>
             <div className='home-text'>
                 {
-                    flag ? <h2 
-                    onMouseLeave={handlerFlag} onClick={()=>navigate("/about")}>Go to About Me</h2> 
-                    : <h2 onMouseEnter={handlerFlag}>Welcome to Home</h2>
+                    width > 650 ?
+                        flag ? 
+                        <h2 onMouseLeave={handlerFlag} onClick={()=>navigate("/about")}>About Me</h2> 
+                        : 
+                        <h2 onMouseEnter={handlerFlag}>Home</h2>
+                        :
+                    <h2 onClick={()=>navigate("/about")}>Click Here</h2>
                 }
                 <h3>My name is Jorge Duje</h3>
                {
