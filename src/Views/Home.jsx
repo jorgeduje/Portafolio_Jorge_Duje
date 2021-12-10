@@ -31,7 +31,7 @@ const Home = () => {
                         : 
                         <h2 onMouseEnter={handlerFlag}>Home</h2>
                         :
-                    <h2 onClick={()=>navigate("/about")}>Click Here</h2>
+                    <h2 onClick={()=>navigate("/about")}>Click Here to navigate</h2>
                 }
                 <h3>My name is Jorge Duje</h3>
                {
