@@ -1,7 +1,11 @@
 import React from 'react';
 import Rotate from 'react-reveal/Rotate';
+// import ProfesionaInfoContext from '../Context/ProfesionalInfoContext'
 
 class TextosSkills extends React.Component {
+
+  // const {width} = useContext(ProfesionaInfoContext)
+  
   constructor(props) {
     super(props);
     this.state = { show: false };
@@ -17,7 +21,7 @@ class TextosSkills extends React.Component {
 
   render() {
     return (
-      <div className="section2" onMouseEnter={this.handleClick} onMouseLeave={this.handleClick}>
+      <div className="section2" onMouseEnter={this.handleClick} onMouseLeave={this.handleClick} onClick={this.handleClick}>
         <Rotate top right cascade when={this.state.show}>
         <h2>Technologies</h2>
           <ul>
