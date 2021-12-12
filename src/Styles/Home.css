@@ -45,8 +45,9 @@
     padding: 5px 10px;
     color: white;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: #a69a72;
+    width: 30%;
 }
 
 .cv:hover{
@@ -160,6 +161,11 @@
     }
     .home-text>p{
         margin-bottom: 20px;
+    }
+
+    .cv{
+        width: 60%;
+        margin-bottom: 10px;
     }
     
 }

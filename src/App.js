@@ -9,23 +9,26 @@ import About from "./Views/About";
 import Academic from "./Views/Academic";
 import WorkHistory from "./Views/WorkHistory";
 import Skills from "./Views/Skills";
+import FormContact from "./components/FormContact";
 
 
 //Provider
 import { ProfesionalProvider } from "./Context/ProfesionalInfoContext";
+
 
 function App() {
     
   return (
     <BrowserRouter>
       <ProfesionalProvider>
-          <Routes>
-            <Route path="/" exact element={<Home />}/>
-            <Route path="/about" exact element={<About />}/>
-            <Route path="/academic" exact element={ <Academic />}/>
-            <Route path="/workhistory" exact element={ <WorkHistory /> } />
-            <Route path="/skills" exact element={ <Skills /> } />
-          </Routes>
+            <Routes>
+              <Route path="/" exact element={<Home />}/>
+              <Route path="/about" exact element={<About />}/>
+              <Route path="/academic" exact element={ <Academic />}/>
+              <Route path="/workhistory" exact element={ <WorkHistory /> } />
+              <Route path="/skills" exact element={ <Skills /> } />
+              <Route path="/contact" exact element={ <FormContact /> } />
+            </Routes>
       </ProfesionalProvider>
     </BrowserRouter>
   );

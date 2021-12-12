@@ -1,9 +1,10 @@
 import React, { useContext, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import Typical from "react-typical"
 import ProfesionaInfoContext from '../Context/ProfesionalInfoContext'
 import '../Styles/Home.css'
 import HojaDeVida from "../imgs/HojaDeVida.pdf"
+import Icon from '../components/Icon'
 
 
 const Home = () => {
@@ -70,6 +71,7 @@ const Home = () => {
                 </p>
                }
 
+                <Link to="/contact" className='cv'>Contact me</Link>
                 <a href={HojaDeVida} download="CV Jorge Duje" className="cv">Download CV</a>
             </div>
             <aside className='home-social'>
@@ -78,6 +80,7 @@ const Home = () => {
                     <li><a href={Data.personal.social.LinkedIn} target="_blank" rel="noreferrer" className="fab fa-linkedin"></a></li>
                     <li><a href={Data.personal.social.instagram} target="_blank" rel="noreferrer" className="fab fa-instagram"></a></li>
                     <li><a href={Data.personal.social.WhatsApp} target="_blank" rel="noreferrer" className="fab fa-whatsapp"></a></li>
+                    <li><Link to="/contact"><Icon /></Link></li>
                 </ul>
             </aside>
         </div>
