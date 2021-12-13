@@ -7,6 +7,10 @@ const FormContact = () => {
 
     const [ mailSend, setMailSend ] = useState(false)
 
+    const handlerDiv = ()=>{
+        setMailSend(false)
+    }
+
     const handlerMailSend = ( e )=>{
         e.preventDefault()
         emailjs.sendForm( "service_1jmny2t", "template_fa476kg", e.target, "user_r5y4dz9U8LPO02jOTjkPZ" )
@@ -44,7 +48,7 @@ const FormContact = () => {
 
                     {
                         mailSend ? 
-                        <div className="transparente"></div>
+                        <div className="transparente" onClick={handlerDiv}></div>
                         :
                         ""
                     }

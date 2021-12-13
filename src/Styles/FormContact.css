@@ -28,6 +28,7 @@ form{
 
 form>input, textarea{
     width: 95%;
+    border-radius: 5px;
 }
 
 form>input{
@@ -35,6 +36,7 @@ form>input{
     padding: .7rem;
     color: #a69a72;
     font-weight: bold;
+    border-radius: 5px;
 
 }
 
