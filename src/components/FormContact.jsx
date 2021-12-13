@@ -90,8 +90,8 @@ const FormContact = () => {
                     </form> 
 
                     <div className={mailSend ? "modal" : "modal2"}>
-                        <h2>Enviado exitosamente</h2>
-                        <h3>Gracias por contactarte conmigo, respodere a tu consulta a la brevedad</h3>
+                        <h2>Sent successfully</h2>
+                        <h3>Thank you for contacting me, I will respond to your query as soon as possible.</h3>
                     </div>
 
                     {
