@@ -29,6 +29,9 @@ form{
 form>input, textarea{
     width: 95%;
     border-radius: 5px;
+    color: #a69a72;
+    font-weight: bold;
+    padding: .7rem;
 }
 
 form>input{
@@ -55,6 +58,23 @@ form>input{
     border-radius: 5px;
     border: 1px solid white;
     cursor: pointer;
+}
+.a{
+    text-decoration: none;
+    background-color: #2C5364;
+    width: 100px;
+    padding: .5rem 1rem;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+    
+}
+.a:hover{
+    text-decoration: none;
+    background-color: white;
+    color: #2C5364;
+    
 }
 
 .container-buttons>button:hover{
